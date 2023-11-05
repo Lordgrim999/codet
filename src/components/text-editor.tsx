@@ -11,7 +11,7 @@ const TextEditor: React.FC = () => {
         const listener = (event: MouseEvent) => {
             if (ref.current && event.target && ref.current.contains(event.target as Node))
             {
-                console.log("click inside")
+                
                 return;
             }
             setEditing(false)
