@@ -1,0 +1,8 @@
+.editor-wrapper{
+    width: calc(100% - 10px);
+    height: 100%;
+    position: relative;
+}
+.editor-wrapper>div{
+    height:100%
+}
